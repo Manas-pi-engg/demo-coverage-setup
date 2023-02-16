@@ -5,7 +5,10 @@ import java.lang.Math;
 public class Area{
 
     public static double triangle(double b, double h){
-      if(b<0 || h<0) return 0;
+      if(b<0 || h<0) 
+      {
+          return 0;
+      }
       return (b*h)/2;
     }
 
